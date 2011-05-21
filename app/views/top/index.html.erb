@@ -1,0 +1,66 @@
+
+<%# タイトル %>
+<span id="title"><%= link_to "Clowns Rondo", root_path %></span>
+
+<br />
+<br />
+<br />
+
+◆プロジェクト<br />
+名称：Clowns Rondo<br />
+概要：個人開発プロジェクト<br />
+活動：Webアプリケーション／Webシステム開発<br />
+言語：<%= link_to "Ruby", "http://www.ruby-lang.org/ja/", :target => "_blank" %><br />
+フレームワーク：<%= link_to "Ruby on Rails", "http://rubyonrails.org/", :target => "_blank" %><br />
+運用環境：<%= link_to "Heroku", "http://www.heroku.com/", :target => "_blank" %><br />
+開発環境：<%= link_to "Mac", "http://www.apple.com/jp/mac/", :target => "_blank" %>／<%= link_to "Redcar", "http://redcareditor.com/", :target => "_blank" %><br />
+
+<% if false %>
+プロジェクトヴィジョン：システム開発をもっと身近なものにするコト<br />
+プロジェクトミッション：<br />
+<% end %>
+
+<br />
+
+◆プロダクト<br />
+[プロトタイプモデル：ALL BETA VERSION<% if false %>：ゾディアックシリーズ<% end %>] (デモアカウント：ID:demo／PASS:demo)<br />
+<%= link_to "Aries／アリエス", "https://aries-sky.heroku.com/", :target => "_blank" %>(<%= link_to "GitHub", "https://github.com/shu0115/aries", :target => "_blank" %>) - メモ帳<br />
+<%= link_to "Taurus／タウロス", "https://taurus-sky.heroku.com/", :target => "_blank" %>(<%= link_to "GitHub", "https://github.com/shu0115/taurus", :target => "_blank" %>) - カレンダー<br />
+<%= link_to "Gemini／ジェミニ", "https://gemini-sky.heroku.com/", :target => "_blank" %>(<%= link_to "GitHub", "https://github.com/shu0115/gemini", :target => "_blank" %>) - 連絡網<br />
+<%= link_to "Cancer／キャンサー", "https://cancer-sky.heroku.com/", :target => "_blank" %>(<%= link_to "GitHub", "https://github.com/shu0115/cancer", :target => "_blank" %>) - 日程表<br />
+Leo／レオ - (グループSNS)<br />
+Virgo／ヴァルゴ - (未定)<br />
+<%= link_to "Libra／リーブラ", "https://libra-sky.heroku.com/", :target => "_blank" %>(<%= link_to "GitHub", "https://github.com/shu0115/libra", :target => "_blank" %>) - 家計簿<br />
+<%= link_to "Scorpio／スコーピオ", "https://scorpio-sky.heroku.com/", :target => "_blank" %>(<%= link_to "GitHub", "https://github.com/shu0115/scorpio", :target => "_blank" %>) - 記事<br />
+Sagittarius／サジタリアス - (Wiki)<br />
+<%= link_to "Capricorn／カプリコーン", "https://capricorn-sky.heroku.com/", :target => "_blank" %>(<%= link_to "GitHub", "https://github.com/shu0115/capricorn", :target => "_blank" %>) - タスク<br />
+<%= link_to "Aquarius／アクエリアス", "https://aquarius-sky.heroku.com/", :target => "_blank" %>(<%= link_to "GitHub", "https://github.com/shu0115/aquarius", :target => "_blank" %>) - 投票<br />
+<%= link_to "Pisces／パイシーズ", "https://pisces-sky.heroku.com/", :target => "_blank" %>(<%= link_to "GitHub", "https://github.com/shu0115/pisces", :target => "_blank" %>) - リスト<br />
+<% if false %>
+Serpentaurius(serpent)／サーペンタリウス(サーペント) - (Vocaloセレクトサイト)<br />
+<% end %>
+
+<br />
+
+◆メンバー<br />
+shu／Shun Matsumoto(<%= link_to "Twitter", "http://twitter.com/#!/shu_0115", :target => "_blank" %>／<%= link_to "GitHub", "https://github.com/shu0115", :target => "_blank" %>)<br />
+
+<br />
+<br />
+<br />
+<br />
+
+<span class="menu">
+  <%= link_to "サポーター", "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UFFVAJ3CPV4KG", :target => "_blank" %>
+  <%= link_to "スポンサー", "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HP3XV99NQTGPJ", :target => "_blank" %>
+  <%= link_to "パトロン", "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K2TATKNTXZQGC", :target => "_blank" %>
+</span>
+
+<br />
+<br />
+
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="<%= request.url %>" data-text="Clowns Rondo - #clowns_rondo" data-count="horizontal" data-via="clowns_rondo" data-related="shu_0115:Developer" data-lang="ja">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<iframe src="http://www.facebook.com/plugins/like.php?href=<%= request.url %>&amp;layout=button_count&amp;show_faces=true&amp;width=450&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
+
+<br />
+<br />

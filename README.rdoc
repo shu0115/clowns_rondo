@@ -1,0 +1,7 @@
+= Clowns Rondo
+
+Shu's Development Project.
+
+= Copyright
+
+Copyright (c) 2011 Shun Matsumoto.

@@ -1,0 +1,27 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ja:
+  # メニュー
+  menu:
+    list: List
+    show: Show
+    edit: Edit
+    delete: Delete
+    new: New
+    top: Top
+    entry: Entry
+    public: Public
+
+  entry:
+    edit: 変更
+    password: 現在のパスワード
+    edit_password: 変更するパスワード
+    edit_password_confirmation: 変更するパスワード(再入力)
+
+  # date_select対応
+  date:
+    order:
+    - :year
+    - :month
+    - :day
